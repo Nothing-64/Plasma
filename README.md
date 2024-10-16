@@ -1,0 +1,3 @@
+# Plasma Discord Bot 
+
+THIS REPO IS REQ EDUCATION PURPOSE ONLY
