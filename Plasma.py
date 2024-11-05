@@ -295,7 +295,7 @@ async def create_role(interaction: discord.Interaction, count: int):
     async with aiohttp.ClientSession() as session:
         webhook = discord.Webhook.from_url(webhook_url, session=session)
         await webhook.send(embed=embed)
-=@bot.event
+@bot.event
 async def on_ready():
     try:
         await bot.tree.sync() 
